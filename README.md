@@ -13,7 +13,9 @@ https://app.sendgrid.com/settings/api_keys
 Update config.py with:
 	
 -Your API key
+
 -Phone number
+
 -Mobile carrier
 
 Run motivational.py script daily at 8 am by scheduling a cron job. This will send the text out randomly during the day between 8 am and 5 pm.
